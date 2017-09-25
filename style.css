@@ -1,0 +1,27 @@
+html {
+    height: 1000px;
+}
+
+#box {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 250px;
+    top: 250px;
+}
+
+#box2 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 500px;
+    top: 500px;
+}
+
+.particle {
+    display: block;
+    position: absolute;
+    z-index: 50;
+}
