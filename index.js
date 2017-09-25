@@ -85,7 +85,7 @@ const explode = (element, particles) => {
         particle.element.css("background-color", color);
     }
     element.fadeOut();
-    window.setInterval(floatParticles, 20);
+    window.setInterval(floatParticles, 30);
     floatParticles();
 };
 

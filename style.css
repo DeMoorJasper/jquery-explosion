@@ -2,20 +2,20 @@ html {
     height: 1000px;
 }
 
-#box {
-    background-color: green;
+#box, #box2 {
     width: 100px;
     height: 100px;
     position: absolute;
+}
+
+#box {
+    background-color: green;
     left: 250px;
     top: 250px;
 }
 
 #box2 {
     background-color: red;
-    width: 100px;
-    height: 100px;
-    position: absolute;
     left: 500px;
     top: 500px;
 }
